@@ -8,8 +8,9 @@
     },
     {
       "Source": "android.telephony.TelephonyManager: java.lang.String getDeviceId()",
-      "Method": "de.ecspride.MainActivity$StaticInitClass1: void &lt;clinit&gt;leak",
+      "Method": "de.ecspride.MainActivity$StaticInitClass1: void &lt;clinit&gt;",
       "Line": 37
     }
   ]
 }
+
