@@ -34,10 +34,10 @@ public class IntentSource1 extends Activity {
 	{
 		if (requestCode == 1)
 		{
-			Bundle b = data.getExtras(); // source
+			Bundle b = data.getExtras();
 			for (String key : b.keySet())
 			{
-				Log.i("SnT", "dump: " + b.get(key)); // source
+				Log.i("SnT", "dump: " + b.get(key)); // source and sink
 			}
 		}
 		
