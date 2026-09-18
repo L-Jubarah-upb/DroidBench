@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {			
 	  if (resultCode == 0 && requestCode == 0 && data != null) {
 	    if (data.hasExtra("secret")) {
-	    	if(data.getExtras().getString("secret") != null){ //source
+	    	if(data.getExtras().getString("secret") != null){
 		    	String filename = "sinkFile.txt";
 		    	String sinkData = data.getExtras().getString("secret");		// another source
 		    	FileOutputStream outputStream;	
