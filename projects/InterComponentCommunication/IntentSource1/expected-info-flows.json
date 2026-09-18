@@ -17,9 +17,9 @@
       "Line": 40
     },
     {
-      "Source": "android.content.Intent: android.os.Bundle getExtras()",
+      "Source": "android.os.Bundle: java.lang.Object get(java.lang.String)",
       "Method": "lu.uni.snt.serval.IntentSource1: void onActivityResult(int,int,android.content.Intent)",
-      "Line": 37
+      "Line": 40
     }
   ]
 }
